@@ -14,3 +14,7 @@ print(sorted(vacation_places, reverse=True))
 
 # showing that the origional list is still in its origional order
 print(vacation_places)
+
+# reversing the origional order of the list
+vacation_places.reverse()
+print(vacation_places)

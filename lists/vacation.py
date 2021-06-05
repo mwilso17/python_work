@@ -8,3 +8,6 @@ print(vacation_places)
 
 # sorts the list alphabetically without changing the contents of the list
 print(sorted(vacation_places))
+
+# reverse alphabetical list
+print(sorted(vacation_places, reverse=True))

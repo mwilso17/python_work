@@ -10,3 +10,12 @@ print(f"{friend_names[-1].title()} is my friend. He is terrible!")
 
 greeting = f"{friend_names[0].title()}, I hope you are doing well today."
 print(greeting)
+
+greeting = f"{friend_names[1].title()}, I hope you are doing well today."
+print(greeting)
+
+greeting = f"{friend_names[2].title()}, I hope you are doing well today."
+print(greeting)
+
+greeting = f"{friend_names[-1].title()}, I hope you are doing well today."
+print(greeting)

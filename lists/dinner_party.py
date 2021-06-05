@@ -3,7 +3,7 @@
 # a dinner party experience. A special thanks to all the Greats involved 
 # and a certain Terrible one.
 
-guest_list = ['Catherine', 'Frederick', 'Alexander', 'Ivan']
+guest_list = ['catherine', 'frederick', 'alexander', 'ivan']
 message = 'would you like to come to a great dinner party?'
 print(f"{guest_list[0].title()}, {message}")
 print(f"{guest_list[1].title()}, {message}")
@@ -20,4 +20,14 @@ print(f"{guest_list[2].title()}, {message}")
 print(f"{guest_list[3].title()}, {message}")
 
 print("\nWe found a bigger table! Let's invite more people")
+guest_list.append('cnut')
+guest_list.append('peter')
+guest_list.append('llywelyn')
 
+print(f"\n{guest_list[0].title()}, {message}")
+print(f"{guest_list[1].title()}, {message}")
+print(f"{guest_list[2].title()}, {message}")
+print(f"{guest_list[3].title()}, {message}")
+print(f"{guest_list[4].title()}, {message}")
+print(f"{guest_list[5].title()}, {message}")
+print(f"{guest_list[6].title()}, {message}")

@@ -18,3 +18,7 @@ print(vacation_places)
 # reversing the origional order of the list
 vacation_places.reverse()
 print(vacation_places)
+
+# reversed again to go back to the origional order
+vacation_places.reverse()
+print(vacation_places)

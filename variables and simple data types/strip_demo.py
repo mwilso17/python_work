@@ -4,6 +4,6 @@
 
 name = ' Mia the ball python '
 
-print(name.lstrip())
-print(name.rstrip())
-print(name.strip())
+print(name.lstrip()) #strips whitespace from the left
+print(name.rstrip()) #strips whitespace from the right
+print(name.strip()) #strips whitespace from both sides

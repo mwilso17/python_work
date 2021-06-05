@@ -11,3 +11,6 @@ print(sorted(vacation_places))
 
 # reverse alphabetical list
 print(sorted(vacation_places, reverse=True))
+
+# showing that the origional list is still in its origional order
+print(vacation_places)

@@ -14,4 +14,5 @@ print(instruments)
 # Sorting a new list reverse alphabetically
 vacation_destinations = ['germany', 'france', 'spain', 'russia', 'canada']
 vacation_destinations.sort(reverse=True)
-print(vacation_destinations.title())
+print(vacation_destinations)
+

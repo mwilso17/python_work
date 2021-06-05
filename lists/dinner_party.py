@@ -31,3 +31,20 @@ print(f"{guest_list[3].title()}, {message}")
 print(f"{guest_list[4].title()}, {message}")
 print(f"{guest_list[5].title()}, {message}")
 print(f"{guest_list[6].title()}, {message}")
+
+print("\nTurns out that I only have enough room for 2 people.")
+
+uninvited_guest = guests.pop()
+print(f"Sorry, {uninvited_guest.title()}. There isn't enough room.")
+
+uninvited_guest = guests.pop()
+print(f"Sorry, {uninvited_guest.title()}. There isn't enough room.")
+
+uninvited_guest = guests.pop()
+print(f"Sorry, {uninvited_guest.title()}. There isn't enough room.")
+
+uninvited_guest = guests.pop()
+print(f"Sorry, {uninvited_guest.title()}. There isn't enough room.")
+
+uninvited_guest = guests.pop()
+print(f"Sorry, {uninvited_guest.title()}. There isn't enough room.")

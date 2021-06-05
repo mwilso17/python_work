@@ -7,11 +7,11 @@ instruments = ['guitar', 'violin', 'bass', 'drums', 'piano']
 # prints the origional list
 print(instruments)
 
-# sorts alphabetically
+# sorts alphabetically (permanent)
 instruments.sort()
 print(instruments)
 
-# Sorting a new list reverse alphabetically
+# Sorting a new list reverse alphabetically (permanent)
 vacation_destinations = ['germany', 'france', 'spain', 'russia', 'canada']
 vacation_destinations.sort(reverse=True)
 print(vacation_destinations)

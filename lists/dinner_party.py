@@ -32,19 +32,22 @@ print(f"{guest_list[4].title()}, {message}")
 print(f"{guest_list[5].title()}, {message}")
 print(f"{guest_list[6].title()}, {message}")
 
+# invited too many people. Using pop method to uninvite some people.
 print("\nTurns out that I only have enough room for 2 people.")
 
-uninvited_guest = guests.pop()
+uninvited_guest = guest_list.pop()
+print(f"\nSorry, {uninvited_guest.title()}. There isn't enough room.")
+
+uninvited_guest = guest_list.pop()
 print(f"Sorry, {uninvited_guest.title()}. There isn't enough room.")
 
-uninvited_guest = guests.pop()
+uninvited_guest = guest_list.pop()
 print(f"Sorry, {uninvited_guest.title()}. There isn't enough room.")
 
-uninvited_guest = guests.pop()
+uninvited_guest = guest_list.pop()
 print(f"Sorry, {uninvited_guest.title()}. There isn't enough room.")
 
-uninvited_guest = guests.pop()
+uninvited_guest = guest_list.pop()
 print(f"Sorry, {uninvited_guest.title()}. There isn't enough room.")
 
-uninvited_guest = guests.pop()
-print(f"Sorry, {uninvited_guest.title()}. There isn't enough room.")
+#inviting last 2 people to dinner

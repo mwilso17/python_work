@@ -5,3 +5,6 @@ vacation_places = ['peru', 'germany', 'brazil', 'canada', 'iceland']
 
 # printing list in origional order
 print(vacation_places)
+
+# sorts the list alphabetically without changing the contents of the list
+print(sorted(vacation_places))

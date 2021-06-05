@@ -10,4 +10,4 @@ print(f"{guest_list[1].title()}, {message}")
 print(f"{guest_list[2].title()}, {message}")
 print(f"{guest_list[3].title()}, {message}")
 
-print(f"{guest_list[0].title()} can't make it. It's terrible!")
+print(f"{guest_list[3].title()} can't make it. It's terrible!")

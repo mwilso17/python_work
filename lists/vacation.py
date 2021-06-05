@@ -22,3 +22,6 @@ print(vacation_places)
 # reversed again to go back to the origional order
 vacation_places.reverse()
 print(vacation_places)
+
+#prints lenght of list
+print(len(vacation_places))

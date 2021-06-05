@@ -6,3 +6,5 @@
 guest_list = ['Catherine', 'Frederick', 'Alexander']
 message = 'would you like to come to a great dinner party?'
 print(f"{guest_list[0].title()}, {message}")
+print(f"{guest_list[1].title()}, {message}")
+print(f"{guest_list[2].title()}, {message}")

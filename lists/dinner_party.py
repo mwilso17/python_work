@@ -51,3 +51,12 @@ uninvited_guest = guest_list.pop()
 print(f"Sorry, {uninvited_guest.title()}. There isn't enough room.")
 
 #inviting last 2 people to dinner
+print(f"\n{guest_list[0].title()}, {message}")
+print(f"{guest_list[1].title()}, {message}")
+
+# empty the list
+del(guest_list[0])
+del(guest_list[0])
+
+# prove the list is empty
+print(guest_list)

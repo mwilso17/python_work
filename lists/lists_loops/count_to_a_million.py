@@ -3,3 +3,5 @@
 
 for number in range(1, 1_000_001):
   print(number) 
+
+print("Wow! Python can count to 1 million faster than I can!")

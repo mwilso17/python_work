@@ -7,3 +7,7 @@ your_favorite_pizzas = my_favorite_pizzas[:]
 
 print("My favorite pizzas are: ")
 print(my_favorite_pizzas)
+
+print("\nYou like many of the same pizzas I do!")
+print("\nYour favorite pizzas are: ")
+print(your_favorite_pizzas)

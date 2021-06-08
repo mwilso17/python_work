@@ -5,3 +5,6 @@ german_cities = ['Berlin', 'Munich', 'Oldenburg', 'Hamburg', 'Bremen', 'Ulm']
 
 print('The first three cities on the list are: ')
 print(german_cities[0 : 3])
+
+print('\nThe middle four cities on the list are: ')
+print(german_cities[1 : 5])

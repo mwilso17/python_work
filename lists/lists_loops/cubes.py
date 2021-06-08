@@ -17,3 +17,8 @@ for value in range(1, 11):
   cubes.append(value**3)
 
 print(cubes)
+
+# You can use a list comprehension to further refactor the code
+cubes = [value**3 for value in range(1, 11)]
+
+print(cubes)

@@ -5,3 +5,4 @@ numbers = list(range(1, 1_000_001))
 
 print(min(numbers))
 print(max(numbers)) #These two lines of code make sure that we have the right range
+print(sum(numbers)) #This line adds the sum of our range of numbers

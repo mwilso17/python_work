@@ -8,3 +8,6 @@ print(german_cities[0 : 3])
 
 print('\nThe middle four cities on the list are: ')
 print(german_cities[1 : 5])
+
+print('\n The last three cities on the list are: ')
+print(german_cities[-3:])

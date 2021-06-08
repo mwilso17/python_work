@@ -21,3 +21,9 @@ your_favorite_pizzas.append('veggie')
 
 print(my_favorite_pizzas)
 print(your_favorite_pizzas)
+
+for pizza in my_favorite_pizzas:
+  print(f"I really like {pizza} pizza!")
+
+for pizza in your_favorite_pizzas:
+  print(f"You really like {pizza} pizza!")

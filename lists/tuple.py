@@ -10,7 +10,7 @@ for item in menu:
 # Although you cannot modify a tuple, you can assign a new value to a 
 # variable within a tuple.
 
-menu = ('burgers', 'chips', 'chicken sandwichs', 'soda', 'ice cream')
+menu = ('burgers', 'chips', 'chicken sandwiches', 'soda', 'ice cream')
 
 for item in menu:
   print(f"This restaurant serves {item}.")

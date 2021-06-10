@@ -2,3 +2,7 @@
 # This program simulates an alien spaceship being shot down by the player
 # and prints a message giving points based on the color of the spaceship.
 
+alien_color = 'green'
+
+if alien_color == 'green':
+  print("You earned 5 points!")

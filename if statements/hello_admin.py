@@ -2,7 +2,7 @@
 # This program loops through a list to print a greeting for each user.
 # There is also a special greeting for the admin.
 
-users = []
+users = ['admin', 'marshall', 'lilly', 'ted', 'robin']
 
 if users:  
   for name in users:

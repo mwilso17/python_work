@@ -7,6 +7,6 @@ new_users = ['bob', 'mike', 'josh', 'ash', 'danny']
 
 for new_user in new_users:
   if new_user in current_users:
-    print(f"Sorry, but the username: {current_users} is already taken.")
+    print(f"Sorry, but the username: '{new_user}' is already taken.")
   else:
     print(f"{new_user} is available as a username!")

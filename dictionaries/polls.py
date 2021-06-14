@@ -16,3 +16,8 @@ print("\n")
 
 pizza_lovers = ['mike', 'bob', 'danny', 'john', 'christie', 'bill', 'john']
 
+for person in pizza_lovers:
+  if person in favorite_pizzas.keys():
+    print(f"Thank you for taking the poll, {person.title()}!")
+  else:
+    print(f"What is your favorite pizza, {person.title()}?")

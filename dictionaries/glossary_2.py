@@ -10,17 +10,5 @@ glossary = {
   'list': 'a collection of items in a certain order.',
 }
 
-word = 'boolean'
-print(f"\n{word.title()}: {glossary[word]}")
-
-word = 'string'
-print(f"\n{word.title()}: {glossary[word]}")
-
-word = 'dictionary'
-print(f"\n{word.title()}: {glossary[word]}")
-
-word = 'function'
-print(f"\n{word.title()}: {glossary[word]}")
-
-word = 'list'
-print(f"\n{word.title()}: {glossary[word]}")
+for word, definition in sorted(glossary.items()):
+  print(f"\n{word.title()}: {definition}")

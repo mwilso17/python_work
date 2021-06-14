@@ -26,3 +26,11 @@ person = {
   'age': '41'
 }
 people.append(person)
+
+# Display info about people.
+for person in people:
+  name = person['name'].title()
+  age = person['age']
+  city = person['city'].title()
+
+  print(f"{name} is {age} years old and lives in {city}.")

@@ -25,3 +25,4 @@ person = {
   'city': 'houston',
   'age': '41'
 }
+people.append(person)

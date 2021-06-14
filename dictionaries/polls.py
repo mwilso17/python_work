@@ -14,7 +14,7 @@ for name, pizza in favorite_pizzas.items():
 
 print("\n")
 
-pizza_lovers = ['mike', 'bob', 'danny', 'john', 'christie', 'bill', 'john']
+pizza_lovers = ['mike', 'bob', 'danny', 'john', 'christie', 'bill', 'ash']
 
 for person in pizza_lovers:
   if person in favorite_pizzas.keys():

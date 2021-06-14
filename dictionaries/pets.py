@@ -9,7 +9,7 @@ pets = []
 pet = {
   'name': 'mia',
   'owner': 'mike',
-  'age': 1,
+  'age': 12,
   'species': 'ball python',
 }
 pets.append(pet)
@@ -29,3 +29,12 @@ pet = {
   'species': 'ferret',
 }
 pets.append(pet)
+
+# create a for loop to list all the details we know about the pets.
+for pet in pets:
+  name = pet['name'].title()
+  owner = pet['owner'].title()
+  age = pet['age']
+  species = pet['species']
+
+  print(f"{name} is a {species} and is {age} years old. {owner} loves them alot!")

@@ -8,3 +8,11 @@ favorite_pizzas = {
   'ash': 'cheese',
   'john': 'supreme'
 }
+
+for name, pizza in favorite_pizzas.items():
+  print(f"{name.title()}'s favorite pizza is {pizza}.")
+
+print("\n")
+
+pizza_lovers = ['mike', 'bob', 'danny', 'john', 'christie', 'bill', 'john']
+

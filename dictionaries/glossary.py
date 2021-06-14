@@ -22,4 +22,4 @@ word = 'function'
 print(f"\n{word.title()}: {glossary[word]}")
 
 word = 'list'
-print(f"{word.title()}: {glossary[word]}")
+print(f"\n{word.title()}: {glossary[word]}")

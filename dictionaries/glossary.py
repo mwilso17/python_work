@@ -8,3 +8,6 @@ glossary = {
   'function': 'a block of code that performs a task.',
   'list': 'a collection of items in a certain order.',
 }
+
+word = 'boolean'
+print(f"\n{word.title()}: {glossary[word]}")

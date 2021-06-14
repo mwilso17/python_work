@@ -8,3 +8,5 @@ rivers = {
   'china': 'yellow',
 }
 
+for country, river in rivers.items():
+  print(f"\nThe {river.title()} river runs through {country.title()}.")

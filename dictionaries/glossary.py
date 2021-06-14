@@ -11,3 +11,15 @@ glossary = {
 
 word = 'boolean'
 print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'string'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'dictionary'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'function'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'list'
+print(f"{word.title()}: {glossary[word]}")

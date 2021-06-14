@@ -18,14 +18,14 @@ pet = {
   'name': 'spaz',
   'owner': 'rob',
   'age': 3,
-  'species': 'cat'
+  'species': 'cat',
 }
 pets.append(pet)
 
 pet = {
-  'name': 'bobba'
-  'owner': 'alice'
+  'name': 'bobba',
+  'owner': 'alice',
   'age': 5,
-  'species': 'ferret'
+  'species': 'ferret',
 }
 pets.append(pet)

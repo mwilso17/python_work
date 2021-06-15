@@ -2,11 +2,11 @@
 # This program stores people's favorite numbers and prints the key value pairs
 
 favorite_numbers = {
-  'Mike': 30,
-  'Ash': 42,
-  'John': 120,
-  'Bill': 7,
-  'Dan': 413,
+  'Mike': [30, 15, 29],
+  'Ash': [42, 22, 14],
+  'John': [120, 222, 333],
+  'Bill': [7, 2, 1],
+  'Dan': [413, 16, 3],
 }
 
 number = favorite_numbers['Mike']

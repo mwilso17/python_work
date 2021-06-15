@@ -11,7 +11,7 @@ elif age < 12:
   print("Your ticket is $10.")
 elif age < 65:
   print("Your ticket is $15.")
-elif age >= 65:
+elif age < 400:
   print("You get a senior discount. Your ticket is $12.")
 elif age >= 400:
   print("Sorry, we don't let vampires into this theater.")

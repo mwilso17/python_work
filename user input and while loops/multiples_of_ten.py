@@ -2,3 +2,6 @@
 # This program asks the user to input a number and returns if that number is a
 # multiple of 10 or not.
 
+number = input("Please enter a number: ")
+number = int(number)
+

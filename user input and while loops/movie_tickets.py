@@ -2,4 +2,5 @@
 # This program takes user input for age then returns the price of their movie
 # ticket to them.
 
-prompt = "\nWhat is your age? "
+age = input("\nWhat is your age? ")
+age = int(age)

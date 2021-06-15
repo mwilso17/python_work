@@ -9,17 +9,8 @@ favorite_numbers = {
   'Dan': [413, 16, 3],
 }
 
-number = favorite_numbers['Mike']
-print(f"Mike's favorite number is {number}.")
 
-number = favorite_numbers['Ash']
-print(f"Ash's favorite number is {number}.")
-
-number = favorite_numbers['John']
-print(f"John's favorite number is {number}.")
-
-number = favorite_numbers['Bill']
-print(f"Bill's favorite number is {number}.")
-
-number  = favorite_numbers['Dan']
-print(f"Dan's favorite number is {number}.")
+for name, numbers in favorite_numbers.items():
+  print(f"\n{name.title()}'s favorite numbers are: ")
+  for number in numbers:
+    print(f"{number}")

@@ -7,3 +7,8 @@ sandwich_orders = ['club', 'ham and swiss', 'pastrami', 'turkey', 'veggie']
 
 # empty list for finished sandwiches
 finished_sandwiches = []
+
+while sandwich_orders:
+  current_sandwich = sandwich_orders.pop()
+  print(f"I am making your {current_sandwich} sandwich now.")
+  finished_sandwiches.append(current_sandwich)

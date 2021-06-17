@@ -12,3 +12,6 @@ while sandwich_orders:
   current_sandwich = sandwich_orders.pop()
   print(f"I am making your {current_sandwich} sandwich now.")
   finished_sandwiches.append(current_sandwich)
+
+for sandwich in finished_sandwiches:
+  print(f"Here is your {sandwich} sandwich.")  

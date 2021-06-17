@@ -4,6 +4,6 @@
 
 def make_shirt(size, message):
   """make the shirt with a message on it"""
-  print(f"Making your {size} shirt that says {message}")
+  print(f"Making your {size} shirt that says '{message}'.")
 
 make_shirt('small', 'I love ATL')

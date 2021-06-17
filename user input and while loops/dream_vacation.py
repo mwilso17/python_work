@@ -5,3 +5,7 @@
 name_prompt = "\nWhat is your name? "
 vacation_prompt = "If you could go anywhere in the world, where would you go? "
 next_prompt = "\nWould someone else like to take the poll? "
+
+# empty dictionary to store responses in
+responses = {}
+

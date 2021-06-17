@@ -3,7 +3,7 @@
 
 def describe_city(name, country='germany'):
   """prints name of city and country"""
-  print(f"{name.title()} is located in {country.title()}")
+  print(f"{name.title()} is located in {country.title()}.")
 
 describe_city('berlin')
 describe_city('oldenburg')

@@ -6,4 +6,8 @@ def make_shirt(size, message):
   """make the shirt with a message on it"""
   print(f"Making your {size} shirt that says '{message}'.")
 
+# call function with positional arguments
 make_shirt('small', 'I love ATL')
+
+# call function with keyword arguments
+make_shirt(size='medium', message='Python is fun!')

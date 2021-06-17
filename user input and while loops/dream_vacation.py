@@ -19,3 +19,6 @@ while True:
   if repeat != 'yes':
     break
 
+print("\n-------Results-------")
+for name, place in responses.items():
+  print(f"{name.title()} would like to vacation to {place.title()}.")

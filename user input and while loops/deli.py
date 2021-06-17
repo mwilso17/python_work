@@ -8,6 +8,14 @@ sandwich_orders = ['club', 'ham and swiss', 'pastrami', 'turkey', 'veggie']
 # empty list for finished sandwiches
 finished_sandwiches = []
 
+# the following code lets customers know we are out of pastrami today
+# and removes those orders from the list. 
+print("Sorry, but we are out of pastrami right now.")
+while 'pastrami' in sandwich_orders:
+  sandwich_orders.remove('pastrami')
+
+
+# code to 'make' sandwiches.
 while sandwich_orders:
   current_sandwich = sandwich_orders.pop()
   print(f"I am making your {current_sandwich} sandwich now.")

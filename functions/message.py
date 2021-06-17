@@ -3,7 +3,8 @@
 
 def display_message():
   """This function displays a message"""
-  print("I am learning how to make functions in Python!")
+  message = "I am learning how to make fuctions in Python"
+  print(message)
 
 
 display_message()

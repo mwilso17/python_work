@@ -18,7 +18,7 @@ messages = ['hey!', 'What\'s up?', ':)']
 show_messages(messages)
 
 sent_messages = []
-send_messages(messages, sent_messages)
+send_messages(messages[:], sent_messages)
 
 print("\nFinal lists:")
 print(messages)

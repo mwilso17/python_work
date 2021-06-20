@@ -4,7 +4,7 @@
 class Restaurant:
   """a model of a restaurant"""
 
-  def __init___(self, name, cuisine):
+  def __init__(self, name, cuisine):
     """initialize name and cuisine attributes"""
     self.name = name
     self.cuisine = cuisine

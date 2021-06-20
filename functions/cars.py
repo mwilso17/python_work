@@ -4,8 +4,8 @@
 def make_car(make, model, *other):
   """makes a dictionary for a car"""
   car_dictionary = {
-    'make' = make.title(),
-    'model' = model.title(),
+    'make': make.title(),
+    'model': model.title(),
   }
 
   for other, value in other.items():

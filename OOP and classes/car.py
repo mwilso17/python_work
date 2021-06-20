@@ -13,7 +13,7 @@ class Car:
 
   def get_descriptive_name(self):
     """Returns a neatly formatted descriptive name."""
-    descriptive_name = f"{self.year} {self.make} {self.model}"
+    descriptive_name = f"\n{self.year} {self.make} {self.model}"
     return descriptive_name.title()
 
   def read_odometer(self):
@@ -41,6 +41,11 @@ class ElectricCar(Car):
   def __init__(self, make, model, year):
     """Initialize attributes of the parent class"""
     super().__init__(make, model, year)
+    self.battery_size = 75
+
+  def describe_battery(self):
+    """Prints a statement describing battery size"""
+    print(f"This car has a {self.battery_size}-kWh battery.")
 
 my_old_car = Car('honda', 'accord', 1995)
 print(my_old_car.get_descriptive_name())
@@ -49,3 +54,7 @@ my_old_car.read_odometer()
 
 my_old_car.increment_odometer(321)
 my_old_car.read_odometer()
+
+my_electric_car = ElectricCar('tesla', 'model s', 2018 )
+print(my_electric_car.get_descriptive_name())
+my_electric_car.describe_battery()

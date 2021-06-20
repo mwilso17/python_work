@@ -34,6 +34,14 @@ class Car:
     """Add given amount to odometer reading"""
     self.odometer_reading += miles
 
+
+class ElectricCar(Car):
+  """Represents aspects of a car, specific to electric cars"""
+
+  def __init__(self, make, model, year):
+    """Initialize attributes of the parent class"""
+    super().__init__(make, model, year)
+
 my_old_car = Car('honda', 'accord', 1995)
 print(my_old_car.get_descriptive_name())
 my_old_car.update_odometer(223_060)

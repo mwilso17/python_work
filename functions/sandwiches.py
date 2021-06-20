@@ -7,7 +7,7 @@ def make_sandwiches(*items):
   print("\nI'll make you a sandwich")
   for item in items:
     print(f"  ... adding {item} to your sandwich")
-    print("Your sandwich is ready!")
+  print("Your sandwich is ready!")
 
 
 make_sandwiches('roast beef', 'chedder', 'lettuce')

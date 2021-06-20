@@ -11,7 +11,7 @@ class Restaurant:
 
   def describe_restaurant(self):
     """describes the restaurant"""
-    print(f"{self.name} is a {self.cuisine} restaurant.")
+    print(f"\n{self.name} is a {self.cuisine} restaurant.")
 
   def open_restaurant(self):
     """opens the restaurant for business"""
@@ -21,3 +21,11 @@ pizza_palace = Restaurant('Pizza Palace', 'pizza')
 print(f"{pizza_palace.name}, {pizza_palace.cuisine}")
 pizza_palace.describe_restaurant()
 pizza_palace.open_restaurant()
+
+kepbap_shop = Restaurant('Kebap Shop', 'Turkish')
+kepbap_shop.describe_restaurant()
+kepbap_shop.open_restaurant()
+
+golden_dragon = Restaurant('Golden Dragon', 'Chinese')
+golden_dragon.describe_restaurant()
+golden_dragon.open_restaurant()

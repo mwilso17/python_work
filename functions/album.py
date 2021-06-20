@@ -1,5 +1,6 @@
 # Mike Wilson 20 June 2021
-# This program builds a dictionary discribing an album.
+# This program builds a dictionary discribing an album. Code has been updated
+# to allow users to enter in data.
 
 def make_album(artist, title, tracks=0):
   """Build a dictionary containing info about an album"""
@@ -11,11 +12,6 @@ def make_album(artist, title, tracks=0):
     album_dictionary['tracks'] = tracks
   return album_dictionary
 
-album = make_album('nightwish', 'once')
-print(album)
-
-album = make_album('iron maiden', 'number of the beast')
-print(album)
-
-album = make_album('mixtape', 'best songs ever', tracks=14)
-print(album)
+# Prepare prompts
+title_prompt = "\nWhat album are you thinking of? "
+artist_prompts = "\nWho is the artist? "

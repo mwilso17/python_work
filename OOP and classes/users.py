@@ -19,3 +19,7 @@ class User:
   def greet_user(self):
     """greets the user"""
     print(f"Welcome, {self.first.title()}!")
+
+my_user = User('mike', 'wilson', 'mikwil99')
+my_user.describe_user()
+my_user.greet_user()

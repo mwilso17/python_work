@@ -13,3 +13,5 @@ def make_car(make, model, *other):
 
   return car_dictionary
 
+my_car = make_car('honda', 'civic', color='grey', repairs='engine')
+print(my_car)

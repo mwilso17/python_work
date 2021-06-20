@@ -27,7 +27,7 @@ class User:
 
   def reset_login_attempts(self):
     """Resets login_attempts to 0"""
-    self.login_attempts == 0
+    self.login_attempts = 0
 
 my_user = User('mike', 'wilson', 'mikwil99')
 my_user.describe_user()

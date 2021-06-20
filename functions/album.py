@@ -14,4 +14,21 @@ def make_album(artist, title, tracks=0):
 
 # Prepare prompts
 title_prompt = "\nWhat album are you thinking of? "
-artist_prompts = "\nWho is the artist? "
+artist_prompt = "\nWho is the artist? "
+
+# Let the user know how to exit program.
+print("Enter 'quit' anytime to stop the program.")
+
+while True:
+  title = input(title_prompt)
+  if title == 'quit':
+    break
+
+  artist = input(artist_prompt)
+  if artist == 'quit':
+    break
+
+  album =make_album(artist, title)
+  print(album)
+
+print("\nThanks for responding!")

@@ -21,3 +21,5 @@ class Dog:
 my_dog = Dog('Spark', 5)
 print(f"My dog's name is {my_dog.name}.")
 print(f"My do is {my_dog.age} years old.")
+my_dog.sit()
+my_dog.roll_over()

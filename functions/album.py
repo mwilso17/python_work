@@ -11,3 +11,11 @@ def make_album(artist, title, tracks=0):
     album_dictionary['tracks'] = tracks
   return album_dictionary
 
+album = make_album('nightwish', 'once')
+print(album)
+
+album = make_album('iron maiden', 'number of the beast')
+print(album)
+
+album = make_album('mixtape', 'best songs ever', tracks=14)
+print(album)

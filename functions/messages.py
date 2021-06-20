@@ -6,5 +6,16 @@ def show_messages(messages):
   for message in messages:
     print(message)
 
+def send_messages(messages, sent_messages):
+  """print each message and move it to sent messages"""
+  print("\nSending all messages")
+  while messages:
+    current_messages = messages.pop()
+    print(current_messages)
+    sent_messages.append(current_messages)    
+
 messages = ['hey!', 'What\'s up?', ':)']
 show_messages(messages)
+
+sent_messages = []
+send_messages(messages, sent_messages)

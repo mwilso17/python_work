@@ -23,3 +23,7 @@ class User:
 my_user = User('mike', 'wilson', 'mikwil99')
 my_user.describe_user()
 my_user.greet_user()
+
+their_user = User('bill', 'roberts', 'bilrob12')
+their_user.describe_user()
+their_user.greet_user()

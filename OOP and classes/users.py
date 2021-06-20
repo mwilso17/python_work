@@ -9,6 +9,7 @@ class User:
     self.first = first
     self.last = last
     self.user_name = user_name
+    self.login_attempts = 0
 
   def describe_user(self):
     """describes the user"""
@@ -19,6 +20,14 @@ class User:
   def greet_user(self):
     """greets the user"""
     print(f"Welcome, {self.first.title()}!")
+
+  def increment_login_attempts(self):
+    """Increases the login_attempts by 1"""
+    self.login_attempts += 1
+
+  def reset_login_attempts(self):
+    """Resets login_attempts to 0"""
+    self.login_attempts == 0
 
 my_user = User('mike', 'wilson', 'mikwil99')
 my_user.describe_user()

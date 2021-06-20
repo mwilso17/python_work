@@ -17,7 +17,7 @@ class Dog:
     """Simulate rolling over"""
     print(f"{self.name} rolled over!")
 
-my_dog = Dog('Spark', 5)
 
+my_dog = Dog('Spark', 5)
 print(f"My dog's name is {my_dog.name}.")
 print(f"My do is {my_dog.age} years old.")

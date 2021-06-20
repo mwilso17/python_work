@@ -8,3 +8,8 @@ def make_sandwiches(*items):
   for item in items:
     print(f"  ... adding {item} to your sandwich")
     print("Your sandwich is ready!")
+
+
+make_sandwiches('roast beef', 'chedder', 'lettuce')
+make_sandwiches('turkey', 'ham', 'swiss')
+make_sandwiches('peanut butter', 'fried bananas', 'honey')

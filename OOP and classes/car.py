@@ -34,6 +34,10 @@ class Car:
     """Add given amount to odometer reading"""
     self.odometer_reading += miles
 
+  def fill_gas_tank(self):
+    """Prints statement saying that gas has been topped off."""
+    print(f"This {self.make.title()} now has a full tank of gas!")
+
 
 class ElectricCar(Car):
   """Represents aspects of a car, specific to electric cars"""
@@ -54,6 +58,7 @@ my_old_car.read_odometer()
 
 my_old_car.increment_odometer(321)
 my_old_car.read_odometer()
+my_old_car.fill_gas_tank()
 
 my_electric_car = ElectricCar('tesla', 'model s', 2018 )
 print(my_electric_car.get_descriptive_name())

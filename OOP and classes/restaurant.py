@@ -8,6 +8,7 @@ class Restaurant:
     """initialize name and cuisine attributes"""
     self.name = name
     self.cuisine = cuisine
+    self.customers_served = 0
 
   def describe_restaurant(self):
     """describes the restaurant"""
@@ -16,6 +17,17 @@ class Restaurant:
   def open_restaurant(self):
     """opens the restaurant for business"""
     print(f"{self.name} is now open for business!")
+
+  def set_number_served(self, customers):
+    """Sets the number the restaurant has served"""
+    self.customers_served = customers
+
+  def increment_number_served(self, number_served):
+    """Adds number to served guests"""
+    self.customers_served += number_served
+    print(f"We have served {number_served} new customers today!")
+    print(f"We have served a total of: {self.customers_served} customers!")
+
 
 pizza_palace = Restaurant('Pizza Palace', 'pizza')
 print(f"{pizza_palace.name}, {pizza_palace.cuisine}")
@@ -29,3 +41,5 @@ kepbap_shop.open_restaurant()
 golden_dragon = Restaurant('Golden Dragon', 'Chinese')
 golden_dragon.describe_restaurant()
 golden_dragon.open_restaurant()
+golden_dragon.set_number_served(200)
+golden_dragon.increment_number_served(30)

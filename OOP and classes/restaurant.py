@@ -16,3 +16,8 @@ class Restaurant:
   def open_restaurant(self):
     """opens the restaurant for business"""
     print(f"{self.name} is now open for business!")
+
+pizza_palace = Restaurant('Pizza Palace', 'pizza')
+print(f"{pizza_palace.name}, {pizza_palace.cuisine}")
+pizza_palace.describe_restaurant()
+pizza_palace.open_restaurant()

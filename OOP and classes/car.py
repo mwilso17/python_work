@@ -50,6 +50,15 @@ class Battery:
     """Print a statement describing the battery size"""
     print(f"This car has a {self.battery_size}-kWh battery.")
 
+  def get_range(self):
+    """Print a statement about the range the battery provides"""
+    if self.battery_size == 75:
+      range = 260
+    elif self.battery_size == 100:
+      range = 315
+
+    print(f"This car can go about {range} miles on a full charge.")
+
 
 class ElectricCar(Car):
   """Represents aspects of a car, specific to electric cars"""
@@ -76,3 +85,4 @@ my_electric_car = ElectricCar('tesla', 'model s', 2018 )
 print(my_electric_car.get_descriptive_name())
 my_electric_car.battery.describe_battery()
 my_electric_car.fill_gas_tank()
+my_electric_car.battery.get_range()

@@ -29,6 +29,21 @@ class Restaurant:
     print(f"We have served a total of: {self.customers_served} customers!")
 
 
+class IceCreamStand(Restaurant):
+  """Represents an icecream stand"""
+
+  def __init__(self, name, cuisine_type='ice cream'):
+    """Initialize an ice cream stand"""
+    super().__init__(name, cuisine_type)
+    self.flavors = []
+
+  def show_flavors(self):
+    """Display available flavors"""
+    print("\nWe have the following flavors available:")
+    for flavor in self.flavors:
+      print(f"- {flavor.title()}")
+
+
 pizza_palace = Restaurant('Pizza Palace', 'pizza')
 print(f"{pizza_palace.name}, {pizza_palace.cuisine}")
 pizza_palace.describe_restaurant()
@@ -43,3 +58,10 @@ golden_dragon.describe_restaurant()
 golden_dragon.open_restaurant()
 golden_dragon.set_number_served(200)
 golden_dragon.increment_number_served(30)
+
+
+cold_confections = IceCreamStand('Cold Confections')
+cold_confections.flavors = ['vanilla', 'chocolate', 'mint']
+
+cold_confections.describe_restaurant()
+cold_confections.show_flavors()

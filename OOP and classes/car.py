@@ -41,6 +41,7 @@ class Car:
 
 class Battery:
   """An attempt to model a battery for an electric car."""
+
   def __init__(self, battery_size=75):
     """Initializes battery attributes"""
     self.battery_size = battery_size
@@ -56,11 +57,7 @@ class ElectricCar(Car):
   def __init__(self, make, model, year):
     """Initialize attributes of the parent class"""
     super().__init__(make, model, year)
-    self.describe_battery = Battery()
-
-  def describe_battery(self):
-    """Prints a statement describing battery size"""
-    print(f"This car has a {self.battery_size}-kWh battery.")
+    self.battery = Battery()
 
   def fill_gas_tank(self):
       """Electric cars don't have a gas tank"""
@@ -77,5 +74,5 @@ my_old_car.fill_gas_tank()
 
 my_electric_car = ElectricCar('tesla', 'model s', 2018 )
 print(my_electric_car.get_descriptive_name())
-my_electric_car.describe_battery()
+my_electric_car.battery.describe_battery()
 my_electric_car.fill_gas_tank()

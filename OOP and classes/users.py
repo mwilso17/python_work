@@ -29,6 +29,21 @@ class User:
     """Resets login_attempts to 0"""
     self.login_attempts = 0
 
+
+class Admin(User):
+  """Admin class profile with privileges."""
+
+  def __init__(self, first, last, user_name):
+    """Initializes attributes"""
+    super().__init__(first, last, user_name)
+    self.privileges = []
+
+  def show_privileges(self):
+    """Display the privileges this admin has"""
+    print("\nPrivileges:")
+    for privilege in self.privileges:
+      print(f"- {privilege}")
+
 my_user = User('mike', 'wilson', 'mikwil99')
 my_user.describe_user()
 my_user.greet_user()
@@ -42,3 +57,15 @@ print("Resetting Login Attempts...")
 their_user.reset_login_attempts()
 print(f"  Login Attempts: {their_user.login_attempts}")
 their_user.greet_user()
+
+
+bill = Admin('bill', 'lee', 'billee22')
+bill.describe_user
+
+bill.privileges = [
+  'can reset passwords',
+  'can delete user',
+  'can add new user',
+]
+
+bill.show_privileges()

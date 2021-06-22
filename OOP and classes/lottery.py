@@ -17,3 +17,4 @@ while len(winning_ticket) < 4:
     winning_ticket.append(pulled_item)
 
 
+print(f"{winning_ticket}")

@@ -8,3 +8,11 @@ print("--- Displaying unchanged file one time:")
 with open(filename) as file:
   contents = file.read()
 print(contents)
+
+print("--- Now replacing a word in the file:")
+with open(filename) as file:
+  lines = file.readlines()
+
+for line in lines:
+  line = line.rstrip()
+  print(line.replace('can', 'could'))

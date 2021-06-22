@@ -24,5 +24,29 @@ for roll_num in range(10):
   result = d6.roll_die()
   results.append(result)
 
-print("The 10 rolls of a 6 sided dice came up: ")
+print("\nThe 10 rolls of a 6 sided dice came up: ")
+print(results)
+
+
+# Make a 10 sided die and roll it 10 times.
+d10 = Die(sides=10)
+
+results = []
+for roll_num in range(10):
+  result = d10.roll_die()
+  results.append(result)
+
+print("\nThe 10 rolls of a 10 sided dice came up: ")
+print(results)
+
+
+# Make a 20 sided die and roll it 10 times.
+d20 = Die(sides=20)
+
+results = []
+for roll_num in range(10):
+  result = d20.roll_die()
+  results.append(result)
+
+print("\nThe 20 rolls of a 6 sided dice came up: ")
 print(results)

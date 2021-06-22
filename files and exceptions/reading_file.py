@@ -7,3 +7,8 @@ print("--- Reading in the entire file:")
 with open(filename) as f:
     contents = f.read()
 print(contents)
+
+print("\n--- Looping over the lines in the file.")
+with open(filename) as f:
+  for line in f:
+    print(line.rstrip())

@@ -1,0 +1,3 @@
+In Python you can make a dice simulator
+In Python you can build objects
+In Python you can make an NPC generator

@@ -12,11 +12,11 @@ class Restaurant:
 
   def describe_restaurant(self):
     """describes the restaurant"""
-    print(f"\n{self.name} is a {self.cuisine} restaurant.")
+    print(f"\n{self.name.title()} is a {self.cuisine} restaurant.")
 
   def open_restaurant(self):
     """opens the restaurant for business"""
-    print(f"{self.name} is now open for business!")
+    print(f"{self.name.title()} is now open for business!")
 
   def set_number_served(self, customers):
     """Sets the number the restaurant has served"""

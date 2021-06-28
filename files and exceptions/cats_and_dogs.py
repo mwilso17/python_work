@@ -10,5 +10,5 @@ for filename in filenames:
     with open(filename) as f:
       contents = f.read()
       print(contents)
-    except FileNotFoundError:
-      print("Sorry, but we cannot find that file.")
+  except FileNotFoundError:
+    print("Sorry, but we cannot find that file.")

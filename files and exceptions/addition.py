@@ -2,16 +2,19 @@
 # This program takes user input for 2 numbers and adds them together.
 # It contains exceptions in case the user does not enter numbers.
 
-try:
-  x = input("Enter a number: ")
-  x = int(x)
+print("Enter 'q' at ant time to quit.\n")
 
-  y = input("Enter another number: ")
-  y = int(y)
+while True:
+  try:
+    x = input("Enter a number: ")
+    x = int(x)
 
-except ValueError:
-  print("Please enter a number. example: 3")
+    y = input("Enter another number: ")
+    y = int(y)
 
-else:
-  sum = x + y
-  print(f"The sum of {x} and {y} is {sum}.")
+  except ValueError:
+    print("Please enter a number. example: 3")
+
+  else:
+    sum = x + y
+    print(f"The sum of {x} and {y} is {sum}.")

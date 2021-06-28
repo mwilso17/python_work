@@ -16,3 +16,7 @@ def count_common_words(filename, word):
     word_count = contents.lower().count(word)
 
     message = f"'{word}' appers in {filename} around {word_count} times."
+
+
+filename = 'txt_files\\alice.txt'
+count_common_words(filename, 'the')

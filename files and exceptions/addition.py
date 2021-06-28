@@ -7,9 +7,13 @@ print("Enter 'q' at ant time to quit.\n")
 while True:
   try:
     x = input("Enter a number: ")
+    if x == 'q':
+      break
     x = int(x)
 
     y = input("Enter another number: ")
+    if y == 'q':
+      break
     y = int(y)
 
   except ValueError:

@@ -19,5 +19,5 @@ def count_common_words(filename, word):
     print(message)
 
 
-filename = 'txt_files\alice.txt'
+filename = 'txt_files\wonderland.txt'
 count_common_words(filename, 'the')

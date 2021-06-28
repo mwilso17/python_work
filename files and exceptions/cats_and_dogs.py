@@ -5,10 +5,13 @@
 filenames = ['txt_files\cats.txt', 'txt_files\dogs.txt']
 
 for filename in filenames:
-  print(f"\nReading file: {filename}")
   try:
     with open(filename) as f:
       contents = f.read()
-      print(contents)
+
   except FileNotFoundError:
-    print("Sorry, but we cannot find that file.")
+    pass
+
+  else:
+    print(f"\nReading file: {filename}")
+    print(contents)

@@ -2,7 +2,7 @@
 # This program analyzes two different txt files from the txt_files folder.
 # This code catches the FileNotFound error.
 
-filenames = ['txt_files\cats.txt', 'txt_files\dog.txt']
+filenames = ['txt_files\cats.txt', 'txt_files\dogs.txt']
 
 for filename in filenames:
   print(f"\nReading file: {filename}")

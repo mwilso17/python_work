@@ -10,7 +10,7 @@ try:
   y = int(y)
 
 except ValueError:
-  print("Please enter a number. ex: 3")
+  print("Please enter a number. example: 3")
 
 else:
   sum = x + y

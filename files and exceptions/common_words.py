@@ -6,7 +6,7 @@
 def count_common_words(filename, word):
   """Counts how many time a word appears in a txt file."""
   try:
-    with open(filename) as f:
+    with open(filename, encoding='utf-8') as f:
       contents = f.read()
 
   except FileNotFoundError:

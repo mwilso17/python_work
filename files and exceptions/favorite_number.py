@@ -6,6 +6,6 @@ import json
 
 number = input("What is your favorite number? ")
 
-with open('favorite_number.json', 'w') as f:
+with open('json\\favorite_number.json', 'w') as f:
   json.dump(number, f)
   print("Thanks. I will remember your favorite number.")

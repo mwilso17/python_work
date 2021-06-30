@@ -34,8 +34,8 @@ class Ship:
     if self.moving_left:
       self.x -= self.settings.ship_speed
 
-      # Update rect object from self.x.
-      self.rect.x = self.x
+    # Update rect object from self.x.
+    self.rect.x = self.x
 
   def blitme(self):
     """Draw the ship at its current location."""

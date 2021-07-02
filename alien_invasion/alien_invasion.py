@@ -90,7 +90,7 @@ class AlienInvasion:
     # Spacing between each alien is equal to one alien width.
     alien = Alien(self)
     alien_width = alien.rect.width
-    available_space_x = self.settings.screen_width = (2 * alien_width)
+    available_space_x = self.settings.screen_width - (2 * alien_width)
     number_aliens_x = available_space_x // (2 * alien_width)
 
     # Create the first row of aliens.

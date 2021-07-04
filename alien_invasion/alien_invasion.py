@@ -72,6 +72,7 @@ class AlienInvasion:
     if button_clicked and not self.stats.game_active:
       # Reset the game settings.
       self.settings.initialize_dynamic_settings()
+      
       # Reset game statistics.
       self.stats.reset_stats()
       self.stats.game_active = True

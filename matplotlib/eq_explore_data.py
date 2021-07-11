@@ -2,7 +2,6 @@
 # This program explores data from a json file.
 
 import json
-from os import read
 
 # Explore the structure of the data
 filename = 'matplotlib\data\eq_data_1_day_m1.json'

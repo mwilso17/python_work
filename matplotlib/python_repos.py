@@ -11,6 +11,10 @@ print(f"Status code: {r.status_code}")
 
 # Store API response in a variable.
 response_dict = r.json()
+print(f"Repositories returned: {len(repo_dicts)}")
 
-# Process results.
-print(response_dict.keys())
+# Examine the first repository.
+repo_dict = repo_dicts[0]
+print(f"\nKeys: {len(repo_dict)}")
+for key in sorted(repo_dict.keys()):
+  print(key)
